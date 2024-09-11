@@ -32,4 +32,27 @@ const myFumction=function(){
     console.log("Hello world ");
 }
 
-console.log(typeof bigNumber) //undefined
+// console.log(typeof bigNumber) //undefined
+
+//stack and heap
+
+// stack is primitive and heap is non-primitive
+
+let myYoutubename="hiteshchoudharydotcom"
+let anothername=myYoutubename
+anothername="chaiaurcode"
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let userOne={
+    email :"amishabaghe@gmail.com",
+    upi:"user@ybl"
+
+}
+let userTwo=userOne;
+userTwo.email="ameesha@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
